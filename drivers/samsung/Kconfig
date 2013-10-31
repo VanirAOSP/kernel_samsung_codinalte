@@ -4,14 +4,12 @@
 
 menu "Samsung Kernel Modules"
 
-<<<<<<< HEAD
 config SAMSUNG_PARAM
 	tristate "Samsung Param-Partition Support"
 	default n
 	help
 		Say Y to enable Samsung Param support.
 
-=======
 config SAMSUNG_MODULES
 	tristate "Samsung Kernel Modules"
 	default m
@@ -34,7 +32,6 @@ config SAMSUNG_PARAM
 		Say Y to enable Samsung Param support.
 
 
->>>>>>> 60155bf... drivers: Add samsung param and j4fs modules sources
 source "drivers/samsung/startup_reason/Kconfig"
 
 endmenu
